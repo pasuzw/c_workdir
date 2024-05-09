@@ -7,6 +7,7 @@ typedef enum E_SELECTION {
     E_LONGEST,
     E_LIST_ALL,
     E_SEARCH,
+    E_OUTPUT,
     E_DEFAULT
 }E_SELECTION;
 
@@ -19,9 +20,9 @@ typedef struct s_yawl {
     /* data */
     int cnt;
     int max_size;
-    char target_str[1];
+    int match;
+    char target_str[100];
     char longest_str[100];
-
 }t_yawl;
 
 

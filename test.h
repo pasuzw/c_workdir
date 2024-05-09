@@ -10,16 +10,16 @@ typedef enum E_SELECTION {
     E_DEFAULT
 }E_SELECTION;
 
-typedef enum E_RESULT {
-    E_FALSE,
-    E_TRUE
-}E_RESULT;
+// typedef enum E_RESULT {
+//     E_FALSE,
+//     E_TRUE
+// }E_RESULT;
 
 typedef struct s_yawl {
     /* data */
     int cnt;
     int max_size;
-    char target_str[100];
+    char target_str[1];
     char longest_str[100];
 
 }t_yawl;
